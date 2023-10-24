@@ -1,6 +1,6 @@
 # Exemplos
 
-Como fazer alguns componentes
+Exemplo de como fazer alguns componentes com markdown no mkdocs. A documentação completa pode ser encontrada [aqui](https://squidfunk.github.io/mkdocs-material/reference/lists/)
 
 # h1
 
@@ -54,6 +54,25 @@ Conteudo
 -   [ ] item 2
 -   [ ] item 3
 
+<br/>
+
+- item 1
+    - item 2
+    - item 3
+- item 4
+    - item 5
+        - item 6
+
+<br/>
+
+1. item 1
+    1. item 2
+    2. item 3
+2. item 4
+    2. item 5
+        2. item 6
+
+<br/>
 
 | Sistema | Descrição |
 |--|--|
@@ -67,3 +86,13 @@ Conteudo
 
 === "Tab 2"
     Conteudo do tab 2
+
+
+``` mermaid
+graph LR
+  A[Start] --> B{Error?};
+  B -->|Yes| C[Hmm...];
+  C --> D[Debug];
+  D --> B;
+  B ---->|No| E[Yay!];
+```
