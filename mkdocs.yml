@@ -1,0 +1,37 @@
+site_name: Wiki
+theme:
+  name: material
+  logo: https://cantustore.com.br/images/cantu-store-logotipo.svg
+  favicon: https://www.pneustore.com.br/_ui/responsive/theme-pneustorePurple/images/favicon.png
+  highlightjs: true
+  palette:
+    primary: deep purple
+    accent: deep purple
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.code.select
+    - content.code.anotation
+    - navigation.footer
+markdown_extensions:
+  - attr_list
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.blocks.details
+  - pymdownx.blocks.admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
