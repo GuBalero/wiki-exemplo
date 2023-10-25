@@ -96,3 +96,6 @@ graph LR
   D --> B;
   B ---->|No| E[Yay!];
 ```
+
+Imagem
+![Imagem](https://images.freeimages.com/variants/k1wQB7egQotJ7Hr3ZBPP1S5c/f4a36f6589a0e50e702740b15352bc00e4bfaf6f58bd4db850e167794d05993d)
