@@ -1,4 +1,5 @@
 site_name: Wiki
+repo_url: https://github.com/GuBalero/wiki-exemplo
 theme:
   name: material
   logo: https://cantustore.com.br/images/cantu-store-logotipo.svg
